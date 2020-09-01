@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTitleText": "Totoro && 小紅君"
+  }
+}
