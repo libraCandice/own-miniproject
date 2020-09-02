@@ -5,7 +5,10 @@
     "pages/my/my"
   ],
   "window": {
-    "navigationStyle": "custom",
-    "navigationBarTitleText": "Totoro && 小紅君"
+    "navigationStyle": "default",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "Totoro && 小紅君",
+    "navigationBarTextStyle": "white"
   }
 }
