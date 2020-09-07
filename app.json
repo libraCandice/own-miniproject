@@ -1,14 +1,53 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/my/my",
     "pages/logs/logs",
-    "pages/my/my"
+    "pages/news/news"
   ],
   "window": {
     "navigationStyle": "default",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#000",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#0094ff",
     "navigationBarTitleText": "Totoro && 小紅君",
-    "navigationBarTextStyle": "white"
-  }
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor":"#cdcdcd"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/_home.png",
+        "selectedIconPath": "icon/home.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "图片",
+        "iconPath": "icon/_img.png",
+        "selectedIconPath": "icon/img.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "icon/_mine.png",
+        "selectedIconPath": "icon/mine.png"
+      }
+    ],
+    "color": "#707070",
+    "selectedColor": "#d81e06",
+    "backgroundColor":"#eeeeee",
+    "position":"bottom"
+  },
+  "usingComponents": {},
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ],
+  "sitemapLocation": "sitemap.json"
 }

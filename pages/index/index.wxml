@@ -1,7 +1,7 @@
 <!--index.wxml-->
-<view class="container">
+<view class="container index-list">
   <!--<image class="img" mode="widthFix" src="../../image/6.jpg"></image> -->
-    <view class="userinfo">
+    <!-- <view class="userinfo">
       <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" > 获取头像昵称 </button>
       <block wx:else>
         <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
@@ -13,6 +13,13 @@
       <text class="user-motto">{{motto}}</text>
       <progress percent="70" color="orange" active show-info='{{false}}'></progress>
       <rich-text nodes="{{nodes}}"></rich-text>
-    </view>
-
+    </view> -->
+  <text>ceshi </text>
+  <text>ceshi </text>
+  <view>1</view>
 </view>
+ <!-- <import src="../../template/template.wxml"/>
+  <template is="tabBar" data="{{tabBar:bindData.tabBar}}"/> -->
+
+
+
